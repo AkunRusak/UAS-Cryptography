@@ -1,3 +1,34 @@
+# Jawaban 1
+
+1. **Hilangkan tanda hubung** dari ISSN, sehingga kita mendapatkan 7 digit pertama, yaitu `2338358`.
+2. **Kalikan setiap digit** dari kiri ke kanan dengan urutan bobot dari 8 hingga 2:
+   - 2 × 8 = 16
+   - 3 × 7 = 21
+   - 3 × 6 = 18
+   - 8 × 5 = 40
+   - 3 × 4 = 12
+   - 5 × 3 = 15
+   - 8 × 2 = 16
+
+3. **Jumlahkan hasil perkalian**:
+   `
+   16 + 21 + 18 + 40 + 12 + 15 + 16 = 138
+   `
+
+4. **Hitung sisa hasil bagi** dari 138 dengan 11:
+   `
+   138 mod 11 = 6
+   `
+
+5. **Kurangi 11** dengan sisa hasil bagi:
+   `
+   11 - 6 = 5
+   `
+
+6. Karena hasilnya bukan 10 atau 11, digit cek untuk ISSN `2338-3585` adalah **5**.
+
+### Jadi, ISSN lengkap dengan digit cek adalah **2338-3585**.
+
 # Jawaban 2
 
 1. **Hilangkan tanda hubung** dari UPC sehingga menjadi `725272730706`.
@@ -46,9 +77,9 @@
 2. Kalikan masing-masing angka dengan urutan penurunan dari 10 hingga 2.
 
 ### Perhitungan:
-`checksum=(6×10)+(0×9)+(2×8)+(2×7)+(9×6)+(1×5)+(0×4)+(5×3)+(5×2)`
+`checksum = (6 × 10) + (0 ×9 ) + (2 × 8) + (2 × 7) + (9 × 6) + (1 × 5) + (0 × 4) + (5 × 3) + (5 × 2)`
 
-`checksum=60+0+16+14+54+5+0+15+10=174`
+`checksum = 60 + 0 + 16 + 14 + 54 + 5 + 0 + 15 + 10 = 174`
 
 3. Jumlah totalnya adalah 174. Sekarang kita cari modulus 174 terhadap 11:
 `174 mod 11 = 9`
