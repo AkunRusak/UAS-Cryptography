@@ -19,7 +19,7 @@ def cekDigitISSN(issn):
     remainder = weighted_sum % 11
     check_digit = 11 - remainder
     
-    # jika digit pengecekannya 10 gunakan 'X', jika 11 gunakan '0'
+    # jika digit pengecekannyaa 10 gunakan 'X', jika 11 gunakan '0'
     if check_digit == 10:
         return 'X'
     elif check_digit == 11:
