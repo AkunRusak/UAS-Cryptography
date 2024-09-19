@@ -121,10 +121,10 @@ Berdasarkan frekuensi, kita buat pohon Huffman. Urutan prosesnya:
 - Gabungkan karakter dengan frekuensi terendah menjadi satu node sampai semua karakter tergabung.
 
 Pohon Huffman ini akan terlihat seperti berikut:
-- Gabungkan 'I' (1) dan 'S' (1) menjadi node dengan frekuensi 2.
-- Gabungkan 'L' (1) dan 'J' (1) menjadi node dengan frekuensi 2.
-- Gabungkan 'Y' (1) dan node ('I', 'S') (2) menjadi node dengan frekuensi 3.
-- Gabungkan 'L', 'J' (2) dan (spasi) (2).
+- Gabungkan `I` (1) dan `S` (1) menjadi node dengan frekuensi 2.
+- Gabungkan `L` (1) dan `J` (1) menjadi node dengan frekuensi 2.
+- Gabungkan `Y` (1) dan node (`I`, `S`) (2) menjadi node dengan frekuensi 3.
+- Gabungkan `L`, `J` (2) dan (spasi) (2).
 - Lanjutkan sampai semua node tergabung menjadi satu pohon.
 
 Setelah membangun pohon Huffman, kita tetapkan kode biner untuk setiap karakter.
@@ -185,5 +185,3 @@ Sehingga teks terkompresi adalah:
   ```
   Rasio kompresi = (144 - 49) / 144 = 95 / 144 ≈ 0.66 atau 66%
   ```
-
-Jadi, kompresi menggunakan metode Huffman untuk teks **"INSAN UNGGUL JAYA"** menghasilkan ukuran teks yang berkurang sebesar **66%**.
