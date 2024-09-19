@@ -1,3 +1,26 @@
+# Jawaban 3
+
+### Langkah-langkah perhitungan:
+1. Pisahkan angka-angka dari ISBN: `6, 0, 2, 2, 9, 1, 0, 5, 5`.
+2. Kalikan masing-masing angka dengan urutan penurunan dari 10 hingga 2.
+
+### Perhitungan:
+`checksum=(6×10)+(0×9)+(2×8)+(2×7)+(9×6)+(1×5)+(0×4)+(5×3)+(5×2)`
+
+`checksum=60+0+16+14+54+5+0+15+10=174`
+
+3. Jumlah totalnya adalah 174. Sekarang kita cari modulus 174 terhadap 11:
+`174 mod 11 = 9`
+
+4. Kurangkan hasil modulus dari 11 untuk mendapatkan check digit:
+`11 − 9 = 2`
+
+Jadi, **angka terakhir dari ISBN-10** untuk **602-291-055** adalah **2**.
+
+### Output:
+```
+cek digit untuk ISBN 602-291-055 adalah: 2
+```
 # Jawaban 4
 
 ### Langkah-langkah perhitungan:
