@@ -1,3 +1,44 @@
+# Jawaban 2
+
+1. **Hilangkan tanda hubung** dari UPC sehingga menjadi `725272730706`.
+
+2. **Pisahkan digit terakhir** sebagai digit cek, yaitu `6`. Sisanya adalah `72527273070`.
+
+3. **Kalikan digit pada posisi ganjil dengan 3** dan digit pada posisi genap dengan 1:
+   - Posisi ganjil: 7, 5, 7, 7, 3, 0
+   - Posisi genap: 2, 2, 2, 0, 7
+
+   Perkalian:
+   - 7 × 3 = 21
+   - 2 × 1 = 2
+   - 5 × 3 = 15
+   - 2 × 1 = 2
+   - 7 × 3 = 21
+   - 2 × 1 = 2
+   - 7 × 3 = 21
+   - 3 × 1 = 3
+   - 0 × 3 = 0
+   - 7 × 1 = 7
+   - 0 × 3 = 0
+
+4. **Jumlahkan hasil perkalian**:
+   \[
+   21 + 2 + 15 + 2 + 21 + 2 + 21 + 3 + 0 + 7 + 0 = 94
+   \]
+
+5. **Cari kelipatan 10 yang lebih besar dari atau sama dengan hasil penjumlahan**:
+   - Kelipatan 10 berikutnya setelah 94 adalah 100.
+
+6. **Kurangkan hasil penjumlahan dari kelipatan 10 tersebut**:
+   \[
+   100 - 94 = 6
+   \]
+
+7. **Bandingkan hasilnya dengan digit cek**:
+   - Digit cek yang dihitung adalah `6`, sama dengan digit cek yang diberikan.
+
+### Jadi, cek digit dari UPC `7-25272-73070-6` benar dan valid.
+
 # Jawaban 3
 
 ### Langkah-langkah perhitungan:
